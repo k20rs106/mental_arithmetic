@@ -9,37 +9,10 @@
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="css/style.css">
   <script>
-    function testSelect() {
-      var x = 2;
-      var y = 3;
-
-      if (document.getElementById("labelCode1ID").value == '999') {
-        document.getElementById("labelCode1ID").value = '000';
-        document.getElementById("labelName1ID").innerText = 'テスト';
-      } else {
-        document.getElementById("labelCode1ID").value = '999';
-        document.getElementById("labelName1ID").innerText = '変えました';
-      }
-
-      return true;
-    }
   </script>
 </head>
 
 <body>
-  <h1>暗算ゲーム</h1>
-  <div>
-    <label for="ex">問</label>
-    <input id="ex" type="text" value="1+1">
-    <div>
-      <label for="answer">＝</label>
-      <input id="level" type="number" placeholder="answer">
-    </div>
-    <div id="button">
-      <button class="btn" onclick="searchLevelGT()">OK</button>
-    </div>
-    <div id="message">message area</div>
-    <br>
 
 </body>
 
